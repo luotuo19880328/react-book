@@ -45,7 +45,7 @@ const Elem = <h1>Some title</h1>;
 
 // usage:
 <div>
-  <Elem title="a title">
+  <Elem title="a title" />
 </div>
 ```
 
@@ -117,7 +117,7 @@ You can fix this by either:
     )
     ```
 
-`React.Fragment` would be the parent element  instead of us using a `div`.
+`React.Fragment` would be the parent element instead of using a `div`.
 
 ## Summary
 
